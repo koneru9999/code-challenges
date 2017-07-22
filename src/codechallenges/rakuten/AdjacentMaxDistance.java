@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017, Finium Solutions, All Rights Reserved
+ * Copyright © 2017, All Rights Reserved
  * 
  * AdjacentMaxDistance.java
  * Modification History
