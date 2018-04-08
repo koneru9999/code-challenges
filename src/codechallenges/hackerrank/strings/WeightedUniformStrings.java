@@ -8,7 +8,7 @@
  * Jul 09, 2017		Venkaiah Chowdary Koneru		Created
  * *************************************************************
  */
-package codechallenges.hackerrank.algorithms.strings;
+package codechallenges.hackerrank.strings;
 
 import java.util.HashSet;
 import java.util.Scanner;
