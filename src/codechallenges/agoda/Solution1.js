@@ -31,7 +31,9 @@ function HttpQuery(name, page, callback) {
 /*
  * Implement the logic from here. The code above is
  * here as reference. Feel free to implement your
- * own http request using Node.js http/https
+ * own http request using Node.js http/https.
+ *
+ * This shall print the movie titles
  */
 
 function sampleCallback(str) {
