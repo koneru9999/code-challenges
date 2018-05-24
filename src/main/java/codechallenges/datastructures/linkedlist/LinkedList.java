@@ -10,6 +10,8 @@
  */
 package codechallenges.datastructures.linkedlist;
 
+import codechallenges.datastructures.Node;
+
 /**
  * Linked lists are List data structures - They can store
  * multiple elements as a list. <br/>

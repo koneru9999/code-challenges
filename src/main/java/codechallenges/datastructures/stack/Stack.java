@@ -1,6 +1,6 @@
 package codechallenges.datastructures.stack;
 
-import codechallenges.datastructures.linkedlist.Node;
+import codechallenges.datastructures.Node;
 
 /**
  * @author Venkaiah Chowdary Koneru

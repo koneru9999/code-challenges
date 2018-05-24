@@ -8,7 +8,7 @@
  * Jan 27, 2018		Venkaiah Chowdary Koneru		Created
  * *************************************************************
  */
-package codechallenges.datastructures.linkedlist;
+package codechallenges.datastructures;
 
 /**
  * element to hold data and next.<br/>
