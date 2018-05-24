@@ -35,12 +35,12 @@ public class Stack<T> {
      *
      * @return
      */
-    public T pop() {
+    public Node<T> pop() {
         if (isEmpty()) {
             throw new IllegalArgumentException("Stack is not initialized");
         }
 
-        T headData = head.getData();
+        Node<T> headData = head;
         this.head = head.getNext();
 
         return headData;
@@ -53,12 +53,12 @@ public class Stack<T> {
      *
      * @return
      */
-    public T peek() {
+    public Node<T> top() {
         if (isEmpty()) {
             throw new IllegalArgumentException("Stack is not initialized");
         }
 
-        return head.getData();
+        return head;
     }
 
     /**

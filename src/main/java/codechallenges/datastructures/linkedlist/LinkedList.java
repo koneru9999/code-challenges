@@ -28,7 +28,7 @@ public class LinkedList<T> {
      * Initially, the head will be NULL. As we create and add nodes to the list,
      * the head will reference the first element in the list.
      */
-    protected Node<T> head = null;
+    private Node<T> head = null;
 
     /**
      * Appends a new node with some data to the very end of the list.
@@ -162,5 +162,13 @@ public class LinkedList<T> {
         } while (current != null);
 
         System.out.println("LinkedList *****");
+    }
+
+    public Node<T> getHead() {
+        return head;
+    }
+
+    public void setHead(Node<T> node) {
+        this.head = node;
     }
 }

@@ -1,4 +1,4 @@
-package codechallenges.test.datastructres.linkedlist;
+package codechallenges.test.datastructres.stack;
 
 import codechallenges.datastructures.stack.Stack;
 
@@ -27,7 +27,7 @@ public class StackTest {
 
         stack.print();
 
-        System.out.println(stack.pop());
+        System.out.println(stack.pop().getData());
 
         stack.print();
     }
@@ -43,7 +43,7 @@ public class StackTest {
 
         stack.print();
 
-        System.out.println(stack.peek());
+        System.out.println(stack.top().getData());
 
         stack.print();
     }
