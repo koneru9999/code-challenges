@@ -11,12 +11,12 @@
 package codechallenges.datastructures.linkedlist;
 
 /**
- * Linked list element to hold data and next.<br/>
+ * element to hold data and next.<br/>
  * Each element references to the next element in the chain - the last element points to NULL.
  *
  * @author Venkaiah Chowdary Koneru
  */
-public class LinkedListNode<T> {
+public class Node<T> {
     /**
      * information held in each element
      */
@@ -25,7 +25,7 @@ public class LinkedListNode<T> {
     /**
      * reference to the next element in the list
      */
-    private LinkedListNode<T> next;
+    private Node<T> next;
 
     /**
      * this takes in the data associated with this node.
@@ -33,7 +33,7 @@ public class LinkedListNode<T> {
      *
      * @param data
      */
-    public LinkedListNode(T data) {
+    public Node(T data) {
         this.data = data;
         this.next = null;
     }
@@ -42,11 +42,11 @@ public class LinkedListNode<T> {
         return data;
     }
 
-    public LinkedListNode<T> getNext() {
+    public Node<T> getNext() {
         return next;
     }
 
-    public void setNext(LinkedListNode<T> next) {
+    public void setNext(Node<T> next) {
         this.next = next;
     }
 }
