@@ -23,7 +23,7 @@ public class CoinChangeProblem {
         if (n < 0) {
             return 0;
         }
-        return getWays(n, coins, 0, new HashMap<String, Long>());
+        return getWays(n, coins, 0, new HashMap<>());
     }
 
     static long getWays(long n, long[] coins, int coinNumber, HashMap<String, Long> cache) {

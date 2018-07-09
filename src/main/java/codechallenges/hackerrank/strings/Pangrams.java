@@ -11,6 +11,7 @@
 package codechallenges.hackerrank.strings;
 
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 /**
  * https://www.hackerrank.com/challenges/pangrams
@@ -29,12 +30,6 @@ public class Pangrams {
             return;
         }
 
-        for (int i = 97; i < 123; i++) {
-            if (!s.contains(String.valueOf((char) i))) {
-                System.out.println("not pangram");
-                return;
-            }
-        }
-        System.out.println("pangram");
+        System.out.println(s.chars().boxed().collect(Collectors.toSet()).size() == 26 ? "panagram" : "not panagram");
     }
 }
