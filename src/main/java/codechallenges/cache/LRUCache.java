@@ -121,4 +121,21 @@ public class LRUCache {
             this.next = next;
         }
     }
+
+    public static void main(String[] args) throws java.lang.Exception {
+        // your code goes here
+        LRUCache lrucache = new LRUCache(4);
+        lrucache.put(1, "1");
+        lrucache.put(10, "15");
+        lrucache.put(15, "10");
+        lrucache.put(10, "16");
+        lrucache.put(12, "15");
+        lrucache.put(18, "10");
+        lrucache.put(13, "16");
+
+        System.out.println(lrucache.get(1)); // null
+        System.out.println(lrucache.get(10)); // 16
+        System.out.println(lrucache.get(15)); // null
+
+    }
 }
